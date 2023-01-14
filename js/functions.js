@@ -81,7 +81,7 @@ const tax = () => {
 const sumCart = () => {
   const cart_games = loadgamesCart();
 
-  return cart_games.reduce((total, item) => total += item.quantity * item.price + item.quantity * item.price * 0.095, 0);
+  return cart_games.reduce((total, item) => total += item.quantity * item.price + item.quantity * item.price * 0.900, 0);
 }
 
 //                                                    El carrito de compras, hacemos la funcion para que almacene los items y puedna ser eliminados tambien
