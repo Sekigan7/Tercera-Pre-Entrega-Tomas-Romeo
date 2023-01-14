@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de juegos</title>
+    <link rel="shortcut icon" href="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body class="body container-fluid p-0">
+
+    <!--                          Aqui le colocamos que si apreta el logo de "Tu tienda de confianza" lo que hara es llevarte a la pagina principal                                               -->
+    <header class="header row">
+      <div class="col-6 d-flex justify-content-start align-items-center pt-3 pe-1 pb-3">
+        <a href="./index.html"><img src="./img/logo/logo.gif" alt="gamestore logo" class="logo"></a>
+      </div>
+      <div class="col-6 d-flex justify-content-end align-items-center ps-1 pt-3 pe-5 pb-3">
+        <a href="#" id="cart_button" title="Mostrar Carrito"></a>
+      </div>
+    </header>
+
+    <!--                                                      Dentro del carrito mostramos al usuario los productos que fueron seleccionados               -->
+    <main class="main row">
+      <section class="col-12 mainSection">
+      <div id="myDIV">
+        <h1 class="text-center mb-2">Juego(s) seleccionado(s)</h1>
+      </div>
+        <div id="games_selected" class="row"></div>
+      </section>
+    </main>
+
+<!--                                                                  Volvemos a colocar el footer!                                   -->
+<footer class="footer row d-flex justify-content-evenly p-3">
+  <ul class="footerSection col">
+    <li><h3>PlayStation 2</h3></li>
+    <li>God of War</li>
+    <li>Devil May Cry</li>
+    <li>Grand Theft Auto San Andreas</li>
+    <li>Medal of Honor Frontline</li>
+    <li>Sniper Elite</li>
+    <li>Call of Duty World at War</li>
+    <li>Grand theft auto liberty city stories</li>
+    <li>Resident Evil 4</li>
+    <li>Metal Gear Solid 3</li>
+    <li>Mortal Kombat Armagedon</li>
+    <li>Bully</li>
+    <li>Black</li>
+  </ul>
+
+  <ul class="footerSection col">
+    <li><h3>Nintendo Switch</h3></li>
+    <li>Dead Cells</li>
+    <li>Inmortals Fenyx Rising</li>
+    <li>Overcooked 2</li>
+    <li>Captain toad treasure tracker</li>
+    <li>Crash Bandicoot Remastered Collection</li>
+    <li>The Legend of Zelda: Breath of the wild</li>
+    <li>Minecraft</li>
+    <li>Mortal Kombat 11</li>
+    <li>Just Dance 2021</li>
+    <li>Aragimi</li>
+    <li>New Super Mario Bros</li>
+    <li>Spyro!</li>
+  </ul>
+
+  <ul class="footerSection col">
+    <li><h3>PlayStation 3</h3></li>
+    <li>L.A. Noire</li>
+    <li>Rayman Origins</li>
+    <li>The Elder Scrolls V: Skyrim</li>
+    <li>Call of Juarez: The Cartel</li>
+    <li>Resistance 3</li>
+    <li>inFamous 2</li>
+    <li>Assasins creed 2</li>
+    <li>"Mafia 2</li>
+    <li>Borderlands 2</li>
+    <li>Grand Theft Auto V</li>
+    <li>Darksiders</li>
+    <li>Dark Souls</li>
+  </ul>
+
+  <ul class="footerSection col">
+    <li><h3>Windows</h3></li>
+    <li>Wolfenstein 2009</li>
+    <li>Crysis </li>
+    <li>Grand Theft Auto IV + Episodes from Liberty city</li>
+    <li>Metro 2023</li>
+    <li>Dark Souls - Prepare to die</li>
+    <li>Fallout 3</li>
+    <li>Fallout New Vegas</li>
+    <li> Half life 2</li>
+    <li>Just Cause 2</li>
+    <li>F.E.A.R 2</li>
+    <li>Devil May Cry 4</li>
+    <li>Halo 2</li>
+  </ul>
+
+  <ul class="footerSection col">
+    <li><h3>Xbox One</h3></li>
+    <li>GEAR 5</li>
+    <li>Red dead Redemption 2</li>
+    <li>Halo Infinite</li>
+    <li>Far Cry 6</li>
+    <li>Call of duty Modern Warfare</li>
+    <li>Call of duty Black Ops-Cold War</li>
+    <li>The Witcher 3</li>
+    <li>Cyberpunk 2077</li>
+    <li>Dishonored 2</li>
+    <li>Assassins Creed Valhalla</li>
+    <li>Monster Hunter World</li>
+    <li>Residente Evil 7</li>
+      </ul>
+    </footer>
+    <script src="./js/games.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main_cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
